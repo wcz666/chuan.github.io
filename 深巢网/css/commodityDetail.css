@@ -1,0 +1,247 @@
+/*内容区域 BEGIN*/
+.content{
+	width: 1200px;
+	margin: 10px auto 0px;
+}
+/*左部分 区域*/
+.content .content-left{
+	width: 370px;
+}
+.content .content-left>img{
+	width: 350px;
+	height: 350px;
+}
+.content .content-left .content-left-img p{
+	border: 1px solid #D6D6D6;
+}
+.content-left-info {
+	background-color: #EFEFEF;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.content-left-info .info-right{
+	width: calc(100% - 200px);
+	line-height: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+	/*中间区域*/
+.content-center {
+	width: 543px;
+	
+}
+.content-center h4{
+	line-height: 25px;
+}
+.content-center-price{
+	line-height: 25px;
+	background-color: #DFDDDD;
+	height: 80px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.content-center-price span{
+	font-size: 30px;
+	font-weight: bold;
+}
+	/*交易*/
+.content-center-deal{
+	height: 35px;
+	line-height: 30px;
+	border-top: 1px dotted #D4D4D4;
+	border-bottom: 1px dotted #D4D4D4;
+	color: #605A58;
+	padding: 3px;
+	box-sizing: border-box;
+}
+.content-center-deal span{
+	width: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	height: 100%;
+}
+.content-center-deal span:first-child{
+	border-right: 1px solid #D4D4D4;
+}
+	/*规格*/
+.content-center-specification{
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+.content-center-specification span{
+	padding: 3px 5px;
+	border: 1px solid #d4d4d4;
+	
+}
+	/*库存*/
+.content-center-inventory{
+	/*height: 80px;*/
+	background-color: #F5F5F5;
+	box-sizing: border-box;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #DEDEDE;
+}
+
+.content-center-inventory .inventory-count button{
+	width: 35px;
+	height: 25px;
+	text-align: center;
+	line-height: 20px;
+	outline: none;
+	border: 1px solid #DEDEDE;
+}
+.content-center-inventory .inventory-count span{
+	width: 45px;
+	height: 25px;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	display: inline-block;
+	text-align: center;
+	padding-top: 2px;
+	box-sizing: border-box;
+	position: relative;
+	top: -2px;
+}
+.content-center-inventory .inventory-buy span{
+	float: left;
+	padding: 10px 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.content-center-inventory .inventory-buy span:first-child{
+	background-color: #C50000;
+}
+.content-center-inventory .inventory-buy span:last-child{
+	background-color: #FD6600;
+}
+	/*右部分区域*/
+.content-right p{
+	height: 35px;
+	background-color: #F5F5F5;
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+}
+/*内容区域 END*/
+
+/*列表区域 BEGIN*/
+.list{
+	width: 1200px;
+	height: 1800px;
+	margin: 10px auto;
+}
+.list .list-left{
+	width: 266px;
+	height: 1800px;
+	border: 1px solid #E4E4E4;
+	background-color: #EFEFEF;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: 900;
+}
+.list .list-left p:first-child{
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 38px;
+}
+.list .list-left p{
+	text-align: left;
+	color: #57585A;
+	line-height: 25px;
+}
+.list .list-left p span{
+	color: red;
+	font-weight: bold;
+}
+	/*右部分*/
+.list .list-right{
+	width: 900px;
+	text-align: center;
+}
+.list .list-right p:first-child{
+	border: 1px solid #E4E4E4;
+	background-color: #EFEFEF;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #57585A;
+	font-weight: bold;
+}
+.list .list-right ul{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px;
+}
+.list .list-right ul li{
+	width: 25%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.list .list-right ul li img{
+	width: 100%;
+}
+.list .list-right ul li b{
+	text-align: left;
+	color: #C50615;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+	/*服务*/
+.list .list-right-service{
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #E4E4E4;
+	background-color: #EFEFEF;
+	font-size: 14px;
+	color: #645F5F;
+	text-align: left;
+}
+.list .list-right-service span{
+	padding: 0 15px;
+	box-sizing: border-box;
+	border-right: 1px solid #E4E4E4;
+	display: inline-block;
+	text-align: center;
+}
+.list .list-right-service span.active{
+	background-color: #C50000;
+	color: white;
+}
+	/*品牌*/
+.list .list-right .list-right-brand{
+	text-align: left;
+	color: #645F5F;
+}
+.list .list-right .list-right-product{
+	border: 1px solid #E4E4E4;
+	background-color: #EFEFEF;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+	color: #57585A;
+	font-weight: bold;
+}
+.list .list-right ol li{
+	float: left;
+	width: 25%;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.list .list-right ol li img{
+	width: 100%;
+}
+.list .list-right ol li p{
+	color: #C61419;
+	text-align: left;
+	font-weight: bold;
+}
+
+/*列表区域 END*/

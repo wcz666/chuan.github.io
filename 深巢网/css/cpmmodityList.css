@@ -1,0 +1,64 @@
+/*列表 BEGIN*/
+	/*列表头部 BEGIN*/
+.list-header{
+	width: 1200px;
+	height: 39px;
+	line-height: 38px;
+	margin: 25px auto 0;
+	background-color: #F4F4F4;
+	border: 1px solid #E0E0E0;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.list-header *{
+	float: left;
+}
+.list-header span:nth-of-type(2){
+	width: 15px;
+	height: 15px;
+	margin-top: 12px;
+	display: inline-block;
+	background: url(../images/commodityList/listbg.gif) no-repeat 0px -119px;
+}
+.list-header b{
+	width: 50px;
+	height: 19px;
+	margin: 10px 5px 0 5px;
+}
+.list-header b:nth-of-type(1) {
+	background: url(../images/commodityList/listbg.gif) no-repeat 0 -251px;
+}
+.list-header b:nth-of-type(2) {
+	background: url(../images/commodityList/listbg.gif) no-repeat 0 -270px;
+}
+.list-header b:nth-of-type(3) {
+	background: url(../images/commodityList/listbg.gif) no-repeat 0 -289px;
+}
+
+	/*列表头部 END*/
+	/*列表内容 BEGIN*/
+.list-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+.list-content ul li{
+	width: 25%;
+	float: left;
+}
+.list-content ul li a{
+	padding: 10px;
+	box-sizing: border-box;
+}
+	/*列表内容 END*/
+	/*列表底部 BEGIN*/
+.list-footer{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin: 15px auto 30px;
+	background-color: #EFEFEF;
+	color: #868585;
+	border: 1px solid #E4E4E4;
+}
+	/*列表底部 END*/
+/*列表 END*/

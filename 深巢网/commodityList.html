@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--清除样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--头部-->
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<!--中心内容区域-->
+		<link rel="stylesheet" type="text/css" href="css/cpmmodityList.css"/>
+		<!--尾部-->
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<!--头部 BEGIN-->
+		<div class="header">
+			<img src="images/event.jpg"/>
+			<!--头部收藏区域-->
+			<div class="header-collect fz12 cl7">
+				<div class="collect-in">
+					<div class="collect-in-left fl">
+						<span class="left-img fl mgt7"></span>	
+						<span class="left-text fr mgr15">收藏本站</span>
+					</div>
+					<div class="collect-in-right fr">
+						<span>欢迎光临森巢网请登录</span>
+						<a href="#" class="login"><span class="pad5">请登录</span></a>
+						<a href="#" class="register">免费注册</a>
+					</div>
+				</div>
+			</div>
+			<!--搜索和购物车区域-->
+			<div class="section">
+				<div class="section-in hg100">
+					<div class="section-in-left hg100 fl">
+						<!--logo-->
+						<img src="images/logoBig.png"/ class="fl mgt15">
+						<!--地区-->
+						<div class="section-in-area fr fz12 hg100 pr cl7">
+							<span>兰州市</span>
+							<div class="area-hidden">
+								
+							</div>
+						</div>
+					</div>
+					<div class="section-in-center hg100 fl">
+						<div class="search mgt20 mgl30">
+							<input type="text" id="search" placeholder="年终好货折中满额送现金" class="bs  fl"/>
+							<span class="hg100 clr00 fl text-center inline-block fb">搜索</span>
+						</div>	
+						<p class="fz12 mgl30 mgt5">热门搜索：<a href="#">沙发</a><a href="#">床</a><a href="#">茶几</a><a href="#">电视柜</a><a href="#">餐桌</a><a href="#">木门</a><a href="#">地板</a><a href="#">卫浴</a><a href="#">私人定制</a><a href="#">窗帘</a><a href="#">儿童家具</a></p>
+					</div>
+					<div class="section-in-right fz12 fl mgt30">
+						<div class="fl mine pr text-center mgr30 cl7">
+							<!--<span class="inline-block fl mgl10 mgr10"></span>-->
+							<span>我的森巢</span>
+
+						</div>
+						<div class="fr cart pr text-center cl7">
+							<span>去购物车结算</span>
+							<span class="pa price fb text-center">1.0</span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!--导航栏区域-->
+			<div class="nav">
+				<div class="nav-in pr">
+					<!--左部分的产品-->
+					<div class="nav-in-left fl">
+						<div class="nav-in-product hg100 text-center clr25 clw">
+							所有产品分类
+						</div>
+						<div class="pa product-show fl">
+							<ul>
+								<li><span>私人定制</span><span></span></li>
+								<li><span>家具</span><span></span></li>
+								<li><span>木地板</span><span></span></li>
+								<li><span>灯饰</span><span></span></li>
+								<li><span>洁具卫浴</span><span></span></li>
+								<li><span>窗帘家纺</span><span></span></li>
+								<li><span>净水器</span><span></span></li>
+								<li><span>背景墙软包定制</span><span></span></li>
+								<li><span>定制门类</span><span></span></li>
+								<li><span>壁纸</span><span></span></li>
+								<li><span>电线、开关、插座</span><span></span></li>
+								<li><span>五金板材、龙骨、胶漆</span><span></span></li>
+								<li><span>吊顶扣板</span><span></span></li>
+								<li><span>线条、扶手、雕花</span><span></span></li>
+								<li><span></span></li>
+								<li><span></span></li>
+								<li><span></span></li>
+								<li><span></span></li>
+							</ul>
+						</div>
+					</div>
+					<!--导航栏右部分-->
+					<div class="fl nav-in-right hg100">
+						<ul>
+							<li><a href="#">森巢首页</a></li>
+							<li class="pr"><a href="#">聚划算</a><img src="images/hot.gif" class="pa" style="top:-5px;left:52px;"/></li>
+							<li><a href="#">装修知识</a></li>
+							<li><a href="#">我秀我家</a></li>
+							<li class="pr"><a href="#">兰州体验馆</a><img src="images/quanjin.gif" class="pa" style="top:-5px;left:90px;"/></li>
+							<li><a href="#">装修美图</a></li>
+							<li class="pr"><a href="#"><img src="images/12geg.png" class="pa"/></a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--头部 END-->
+		<!--显示列表区域头部 BEGIN-->
+		<div class="list-header fz12">
+			<span>显示：</span>
+			<span class="mgr5"></span>
+			<span class="mgr30">图片</span>
+			<span class="mgr10">排序:</span>
+			<select class="mgt10 mgr5">
+				<option value="">默认排序</option>
+			</select>
+			<b></b>
+			<b></b>
+			<b></b>
+		</div>
+		<!--显示列表区域头部 END-->
+		<!--显示列表区域内容区域 BEGIN-->
+		<div class="list-content">
+			<ul class="wd100 fc">
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443518383-1335403282.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443518502-1357531672.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599619-1034933821.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599739-1988926498.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599151-1565379065.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443518383-1335403282.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443518502-1357531672.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599619-1034933821.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599739-1988926498.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599151-1565379065.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443518383-1335403282.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443518502-1357531672.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599619-1034933821.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599739-1988926498.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/commodityList/1443599151-1565379065.jpg_390x390.jpg" class="wd100"/>
+						<p class="mgt5 mgb5 clr">&yen;2479.0</p>
+						<p class="mgt5 mgb5">落地镜 实木穿衣镜 欧式试衣镜CY-01</p>
+						<p class="mgt20"><span class="mgr20">已有110人购买</span><span>评论：100</span></p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--显示列表区域内容区域 END-->
+		<!--列表底部 BEGIN-->
+		<div class="list-footer text-center ">
+			<span>11</span>条记录<span>1</span>/<span>1</span>页
+		</div>
+		<!--列表底部 END-->
+		
+		<!--尾部 BEGIN-->
+		<div class="footer fc">
+			<div class="fc">
+				<ul class="fl mgl15 fc">
+					<li><h3>购物指南</h3></li>
+					<li class="fz12 mgt5"><a href="#">会员注册</a></li>
+					<li class="fz12"><a href="#">如何订购</a></li>
+					<li class="fz12"><a href="#">订单处理</a></li>
+					<li class="fz12"><a href="#">森巢币</a></li>
+				</ul>
+				<ul class="fl fc">
+					<li><h3>售后报障</h3></li>
+					<li class="fz12 mgt5"><a href="#">退款说明</a></li>
+					<li class="fz12"><a href="#">返修/退换货</a></li>
+					<li class="fz12"><a href="#">正品保证</a></li>
+					<li class="fz12"><a href="#">诉讼维权</a></li>
+				</ul>
+				<ul class="fl fc" >
+					<li><h3>配送方式</h3></li>
+					<li class="fz12 mgt5"><a href="#">配送费收取标准</a></li>
+					<li class="fz12"><a href="#">如何配送</a></li>
+					<li class="fz12"><a href="#">如何自提</a></li>
+				</ul>
+				<ul class="fl fc">
+					<li><h3>支付方式</h3></li>
+					<li class="fz12 mgt5"><a href="#">到店支付</a></li>
+					<li class="fz12"><a href="#">公司转账</a></li>
+					<li class="fz12"><a href="#">货到付款</a></li>
+					<li class="fz12"><a href="#">在线支付</a></li>
+				</ul>
+				<ul class="fl fc">
+					<li><h3>商城声明</h3></li>
+					<li class="fz12 mgt5"><a href="#">注册协议</a></li>
+					<li class="fz12"><a href="#">免责声明</a></li>
+					<li class="fz12"><a href="#">隐身保护</a></li>
+				</ul>
+				<div class="footer-contact fr mgr25 fc">
+					<h3>联系我们Contact</h3>
+					<p class="clr mgt10 mgb10">400-9909-512</p>
+					<p>
+						<img src="images/weixin.jpg" class=""/>
+						<img src="images/app.jpg"/>
+					</p>
+				</div>
+			</div>
+			
+			<p class="wd100 text-center fz12 mgt30">
+					<a href="#" class="mgr20">关于我们</a>
+					<a href="#" class="mgr20">联系我们</a>
+					<a href="#" class="mgr20">营销中心</a>
+					<a href="#" class="mgr20">商务合作</a>
+			</p>
+			<p class="fz12 text-center wd100 mgt15 cl7">
+				Copyright © 甘肃森巢网络科技有限公司 2014-2034 版权所有 地址：兰州市城关区三森美居4楼森巢网020居家体验馆
+			</p>
+			<p class="fz12 text-center wd100 mgt15 cl7">
+				垂询热线：4009909512 0931-8589499 E-mail：senchaowang@163.com 备案号：陇ICP备14001478号-2
+			</p>
+			<p class="fz12 text-center wd100 mgt15 cl7">
+				<img src="images/aq1.jpg"/>
+				<img src="images/aq2.jpg"/>
+				<img src="images/aq3.jpg"/>
+				<img src="images/aq4.jpg"/>
+				<img src="images/aq5.jpg"/>
+			</p>
+		</div>
+		<!--尾部 END-->
+	</body>
+</html>

@@ -1,0 +1,202 @@
+.header{
+	width: 100%;
+}
+.header>img{
+	width: 100%;
+	display: block;
+}
+/*头部收藏区域 Begin*/
+.header-collect{
+	width: 100%;
+	height: 30px;
+	background-color: #f7f7f7;
+	line-height: 30px;
+	border-bottom: 1px solid #E8E8E8;
+}
+/*收藏定宽*/
+.collect-in{
+	max-width: 1200px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.collect-in .login span{
+	border-left: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+}
+.collect-in-left .left-img{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	background: url(../images/20130330A_2.png) no-repeat -91px -23px;
+} 
+/*收藏左部分 */
+.collect-in-left{
+	border-right: 1px solid #E8E8E8;
+}
+/*头部收藏区域 End*/
+
+/*搜索和购物车区域 Begin*/
+.section{
+	width: 100%;
+	height: 97px;
+}
+.section-in{
+	width: 1200px;
+	margin: 0 auto;
+}
+.section .section-in-left{
+	width: 264px;
+	height: 100%;
+}
+.section-in-area>span{
+	display: inline-block;
+	width: 52px;
+	height: 24px;
+	border: 1px solid #D6D6D6;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 34px;
+}
+/*搜索和购物车区域 End*/
+
+/*搜索区域 Begin*/
+.section-in-center{
+	width: 636px;
+}
+	/*搜索框*/
+.section-in-center .search{
+	width: 528px;
+	height: 38px;
+}
+.section-in-center .search input{
+	width: 447px;
+	height: 100%;
+	border: 3px solid #B11700;
+	padding-left: 15px;
+	outline: 0;
+}
+.section-in-center .search span{
+	width: 78px;
+	line-height: 38px;
+	color: white;
+}
+.section-in-center p{
+	color: #939393;
+}
+.section-in-center p a{
+	color: #939393;
+	margin: 0 4px;
+}
+/*搜索区域 End*/
+/*购物车区域 Begin*/
+	/*我的森巢*/
+.section-in-right .mine{
+	width: 103px;
+	height: 30px;
+	border: 1px solid #F0F0F0;
+	line-height: 30px;
+	background: url(../images/maxmain.gif) no-repeat -252px 0px;
+}
+/*.section-in-right span:first-child{
+	width: 21px;
+	height: 17px;
+	margin-top: 7px;
+	background: url(../images/20130330A_2.png) no-repeat -120px -32px;
+}*/
+.section-in-right .mine:hover{
+	background: url(../images/maxmain.gif) no-repeat -252px -40px;
+}
+.section-in-right .cart .price{
+	width: 24px;
+    height: 23px;
+    background: url(../images/maxmain.gif) no-repeat -935px -33px;
+    top: -11px;
+    left: 15px;
+    color: white;
+    line-height: 20px;
+    font-size: 10px;
+}
+	/*购物车*/
+.section-in-right .cart{
+	width: 119px;
+	height: 30px;
+	border: 1px solid #F0F0F0;
+	line-height: 31px;
+	background: url(../images/maxmain.gif) no-repeat -256px -81px;
+}
+.section-in-right .cart:hover{
+	background: url(../images/maxmain.gif) no-repeat -256px -122px;
+}
+/*购物车区域 End*/
+/*上导航栏列表 Begin*/
+.header .nav{
+	width: 100%;
+	height: 38px;
+	background-color: #FF8000;
+	line-height: 38px;
+}
+.header .nav .nav-in{
+	width: 1200px;
+	margin: 0 auto;
+	height: 38px;
+}
+.nav-in-product{
+	width: 200px;
+}
+	/*鼠标悬停显示*/
+.nav-in-product:hover +.product-show{
+	display: block;
+}
+	/*产品弹窗列表*/
+.nav-in .product-show li{
+	width: 200px;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 20px;
+	color: #F8F9E9;
+	box-sizing: border-box;
+	font-size: 12px;
+	background-color: #CA1C25;
+}
+	/*产品列表隐藏显示*/
+.nav-in .product-show{
+	display: none;
+}
+
+/*微调最后面突出的那一个*/
+.nav-in .product-show li:last-child{
+	height: 18px;
+}
+.nav-in .product-show li span:nth-of-type(2){
+	width: 10px;
+	height: 8px;
+	display: inline-block;
+	float: right;
+	background: url(../images/20130330A_2.png) no-repeat -70px -8px;
+	margin-right: 8px;
+	margin-top: 10px;
+	transform: rotate(-90deg);
+}
+	/*nav右部分*/
+.nav-in-right ul li{
+	float: left;
+}
+.nav-in-right ul li a{
+	display: inline;
+	padding-left: 23px;
+	padding-right: 20px;
+	border-right: 1px solid #F8F9E9;
+}
+.nav-in-right ul li:last-child a{
+	border: none;
+}
+.nav-in-right ul li:last-child img{
+	width: 183px;
+	height: 46px;
+	top: -6px;
+	left: 5px;
+}
+.nav-in-right ul li a{
+	color: #F8F9E9;
+}
+/*上导航栏列表 End*/

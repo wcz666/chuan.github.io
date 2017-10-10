@@ -1,0 +1,232 @@
+/*清除默认样式*/
+html,body,ul,li,p,h1,h2,h3,h4,dl,dt,dd,ol,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	display: inline-block;
+	color: #7D7C7A;
+	text-decoration: none;
+}
+img{
+	border: 0;
+	vertical-align: top;
+}
+/*浮动样式*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*字体样式*/
+.fz12{
+	font-size: 12px;
+}
+.fz14{
+	font-size: 14px;
+}
+.fz16{
+	font-size: 16px;
+}
+.fz18{
+	font-size: 18px;
+}
+.fz20{
+	font-size: 20px;
+}
+/*margin样式*/
+	/*左*/
+.mgl5{
+	margin-left: 5px;
+}
+.mgl10{
+	margin-left: 10px;
+}
+.mgl15{
+	margin-left: 15px;
+}
+.mgl20{
+	margin-left: 20px;
+}
+.mgl25{
+	margin-left: 25px;
+}
+.mgl30{
+	margin-left: 30px;
+}
+	/*右*/
+.mgr5{
+	margin-right: 5px;
+}
+.mgr10{
+	margin-right: 10px;
+}
+.mgr15{
+	margin-right: 15px;
+}
+.mgr20{
+	margin-right: 20px;
+}
+.mgr25{
+	margin-right: 25px;
+}
+.mgr30{
+	margin-right: 30px;
+}
+	/*上*/
+.mgt5{
+	margin-top: 5px;
+}
+.mgt7{
+	margin-top: 7px;
+}
+.mgt10{
+	margin-top: 10px;
+}
+.mgt15{
+	margin-top: 15px;
+}
+.mgt20{
+	margin-top: 20px;
+}
+.mgt25{
+	margin-top: 25px;
+}
+.mgt30{
+	margin-top: 30px;
+}
+/*margin下*/
+.mgb5{
+	margin-bottom: 5px;
+}
+.mgb10{
+	margin-bottom: 10px;
+}
+.mgb15{
+	margin-bottom: 15px;
+}
+.mgb20{
+	margin-bottom: 20px;
+}
+.mgb25{
+	margin-bottom: 25px;
+}
+
+/*padding样式和box*/
+.pad5{
+	padding: 5px;
+	box-sizing: border-box;
+}
+.pad8{
+	padding: 8px;
+	box-sizing: border-box;
+}
+.pad10{
+	padding: 10px;
+	box-sizing: border-box;
+}
+.pad15{
+	padding: 15px;
+	box-sizing: border-box;
+}
+/*宽度100%*/
+.wd100{
+	width: 100%;
+}
+/*高度100%*/
+.hg100{
+	height: 100%;
+}
+/*清除padding和border带来的影响*/
+.bs{
+	box-sizing: border-box;
+}
+/*清除浮动带来的影响*/
+.fc:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*背景颜色*/
+.clr00{
+	background-color: #B11700;
+}
+.clr25{
+	background-color: #CA1C25;
+}
+/*字体颜色*/
+.cl7{
+	color: #7D7C7A;
+}
+.clw{
+	color: #FDD5D6;
+}
+.clE{
+	color: #E15057;
+}
+.clr{
+	color: #CF3C27;
+}
+.cl6{
+	color: #635F5B;
+}
+/*收货地址等*/
+.cls{
+	color: #5F8FC1;
+}
+/*偏紫色*/
+.clp{
+	color: #9C6ACF;
+}
+/*偏黄色*/
+.clh{
+	color: #FC5606;
+}
+/*进度条颜色*/
+.cl1{
+	color: #C1E8A5;
+}
+.cl2{
+	color: #69B13A;
+}
+.cl3{
+	color: #C1C1C1;
+}
+/*字体加粗*/
+.fw{
+	font-weight: bold;
+}
+/*水平居中*/
+	/*行内元素*/
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+	/*块级元素*/
+.margin-auto{
+	margin: 0 auto;
+}
+/*变成行内块*/
+.inline-block{
+	display: inline-block;
+}
+/*字体加粗*/
+.fb{
+	font-weight: bold;
+}
+/*相对定位*/
+.pr{
+	position: relative;
+}
+/*绝对定位*/
+.pa{
+	position: absolute;
+}
+/*变成块级元素*/
+.db{
+	display: block;
+}

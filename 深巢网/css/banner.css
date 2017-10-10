@@ -1,0 +1,41 @@
+.banner{
+	width: 100%;
+	height: 460px;
+	overflow: hidden;
+	background-color: #52A4F0;
+}
+/*定宽部分*/
+.banner-in{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banner .banner-in-arouse{
+	margin-left: 200px;
+}
+.banner .banner-in-arouse p{
+	bottom: 5px;
+	left: 350px;
+}
+.banner .banner-in-arouse p span{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: #494949;
+	text-align: center;
+	line-height: 26px;
+	margin-right: 15px;
+	color: white;
+}
+.banner .banner-in-arouse p span.active{
+	background-color: #FF7400;
+}
+/*右边区域*/
+.banner-in-right{
+	width: 180px;
+	background-color: #A7D1F7;
+}
+.banner-in-right .right-top{
+	height: 114px;
+	border-bottom: 1px dashed #31536C;
+}

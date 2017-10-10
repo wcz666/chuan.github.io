@@ -1,0 +1,173 @@
+/*一楼 Begin*/
+.floor{
+	width: 1200px;
+	margin: 0 auto;
+}
+.floor-top{
+	padding: 5px 0 0px 0;
+	box-sizing: border-box;
+}
+	/*头部的左部分*/
+.floor .floor-top-left {
+	line-height: 26px;
+	border-bottom: 1px solid #E14D49;
+	padding-bottom: 10px;
+	width: 476px;
+}
+.floor .floor-top-left span{
+	color: #6A6971;
+}
+.floor .floor-top-left span:first-child{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #E41707;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	font-weight: bold;
+}
+	/*头部的右部分*/
+.floor .floor-top-right ul{
+	border-top: 1px solid #E7E7E7;
+	height: 100%;
+	
+}
+.floor .floor-top-right ul li{
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	border-bottom: 1px solid #E14D49;
+	box-sizing: border-box;
+	margin-top: 2px;
+}
+.floor .floor-top-right ul li span{
+	padding: 0 16px;
+	border-left: 1px solid #E7E7E7;
+	color: #6A6971;
+}
+.floor .floor-top-right ul li.active{
+	color: #E14D49;
+	border:1px solid #E14D49;
+	border-top-width: 2px;
+	border-bottom: 1px solid transparent;
+	margin-top: 0px;
+	box-sizing: border-box;
+}
+/*一楼下层*/
+	/*左区域*/
+.floor-bottom-left{
+	width: 300px;
+}
+.floor-bottom-left ul{
+	height: 146px;
+	background-color: #EBF2FA;
+}
+.floor-bottom-left ul li{
+	float: left;
+	width: 33%;
+	margin-bottom: 5px;
+	color: #6F7071;
+}
+.floor-bottom-left ul li.active{
+	color: #F2832A;
+}
+	/*中间区域*/
+.floor-bottom-center .cneter-top p{
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.floor-bottom-center .cneter-top p span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #FEFEFE;
+	margin: 0 5px;
+}
+.floor-bottom-center .cneter-top p span.active{
+	background-color: #00ACFE;
+}
+	/*右部分区域*/
+.floor-bottom ul.floor-bottom-right{
+	width: 445px;
+	border-left: 1px solid #EFEFEF;
+	box-sizing: border-box;
+}
+.floor-bottom  ul.floor-bottom-right li{
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #EFEFEF;
+	border-right: 1px solid #EFEFEF;
+	box-sizing: border-box;
+}
+/*一楼 End*/
+
+/*二楼Begin*/
+.floor.two .floor-top-left{
+	width: 582px;
+}
+
+.floor.two .floor-bottom-right {
+	width: 900px;
+}
+.floor.two .floor-bottom-right  li{
+	width: 25%;
+}
+/*二楼End*/
+
+/*story区域 Begin*/
+.floor.story  .floor-top-left span:first-child{
+	width: 66px;
+	border-radius: 0;
+	background-color: transparent;
+	color: #6A6971;
+}
+.floor.story  .floor-top-left{
+	width: 300px;
+	border-bottom: 1px solid #EAEAEA;
+
+}
+.floor.story .floor-top-right{
+	width: 890px;
+	height: 37px;
+	line-height: 25px;
+	color: #6A6971;
+	margin-left: 10px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.floor.story .floor-bottom-left p{
+	color: #666;
+	margin: 5px 0 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.floor.story .floor-bottom-left p:hover{
+	color: #FF6600;
+}
+.floor.story .floor-bottom-right{
+	width: 860px;
+	margin-left: 30px;
+	margin-top: 10px;
+	border: none;
+	border-top: 1px solid #EFEFEF;
+}
+.floor.story .floor-bottom-right li{
+	width: 31%;
+	margin: 10px 10px;
+	border: 1px solid #EFEFEF;
+	height: 233px;
+}
+.floor.story .floor-bottom-right li p{
+	bottom: 0;
+	background-color: black;
+	opacity: 0.8;
+	height: 35px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+}
+/*story区域 End*/

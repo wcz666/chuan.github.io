@@ -1,0 +1,27 @@
+/*今日必抢 Begin*/
+.purchase{
+	width: 1200px;
+	margin: 0 auto;
+}
+.purchase ul li{
+	float: left;
+	width: 33%;
+	border-left: 1px solid #F4F4F4;
+	border-top: 1px solid #F4F4F4;
+	box-sizing: border-box;
+}
+.purchase ul {
+	border-bottom: 1px solid #F4F4F4;
+	border-right: 1px solid #F4F4F4;
+}
+/*今日必抢 End*/
+
+/*猜你喜欢区域 Begin 修改*/
+.purchase.like ul li{
+	width: 20%;
+	 border: none;
+}
+.purchase.like ul {
+	border: 1px solid #F4F4F4;
+}
+/*猜你喜欢区域 End 修改*/

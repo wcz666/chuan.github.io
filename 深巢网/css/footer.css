@@ -1,0 +1,22 @@
+/*尾部 Begin*/
+.footer{
+	width: 1200px;
+	margin: 25px auto;
+}
+.footer ul{
+	line-height: 25px;
+}
+.footer ul:nth-of-type(2){
+	margin-left: 133px;
+	margin-right: 127px;
+}
+.footer ul:nth-of-type(4){
+	margin-left: 102px;
+	margin-right: 135px;
+}
+/*联系我们*/
+.footer .footer-contact img{
+	width: 70px;
+	height: 70px;
+}
+/*尾部 End*/
